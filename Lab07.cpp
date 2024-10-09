@@ -14,7 +14,7 @@ PhysicsCircle ball;
 ball.setCenter(Vector2f(100, 100));
 ball.setRadius(20);
 world.AddPhysicsBody(ball);
-ball.applyImpulse(Vector2f(.1,.1));
+ball.applyImpulse(Vector2f(.1,-.4));
 
 // Create the floor
 PhysicsRectangle floor;
